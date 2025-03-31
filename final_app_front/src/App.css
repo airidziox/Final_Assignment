@@ -1,0 +1,59 @@
+body {
+  background-color: #f8f8f8;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.msgImg {
+  width: 50px;
+  height: 50px;
+  border: 1px solid white;
+}
+
+.delete:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+.singleImage {
+  width: 400px;
+  height: 400px;
+}
+
+.post {
+  width: 300px;
+}
+
+.username {
+  color: black;
+  text-decoration: underline;
+}
+
+.username:hover {
+  color: #0D6EFDFF;
+}
+
+.title:hover {
+  color: #0D6EFDFF;
+}
+
+.imgDiv {
+  overflow: hidden;
+}
+
+.postImg {
+  transition: 0.5s ease;
+}
+
+.postImg:hover {
+  transform: scale(1.1);
+}
+
+.logout:hover {
+  background-color: white;
+  color: black;
+}
